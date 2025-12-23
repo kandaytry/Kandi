@@ -11,4 +11,5 @@ hari ini, selasa 23 desember 2025 belajar:
     <li>mengisi area kontak</li>
     <li>styling section about</li>
     <li>stling about section 2</li>
+    <li>stling about section tag p</li>
     </ol>
