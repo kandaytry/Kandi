@@ -8,4 +8,5 @@ hari ini, selasa 23 desember 2025 belajar:
     <li>copy index.html dari pertemuan-02 ke pertemuan-03</li>
     <li>mengisi section about</li>
     <li>mengisi section dengan kontak emmeet abrevation</li>
+    <li>mengisi area kontak</li>
     </ol>
