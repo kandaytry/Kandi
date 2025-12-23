@@ -12,4 +12,6 @@ belajar:
  <li>ganti judul halaman</li>
  <li>ganti header</li>
  <li>header dokumen</li>
+ <li>mengisi header</li>
+ <li>mengisi entity html</li>
 </ol>
