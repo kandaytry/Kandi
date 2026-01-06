@@ -13,4 +13,5 @@ hari ini, selasa 23 desember 2025 belajar:
     <li>stling about section 2</li>
     <li>stling about section tag p</li>
     <li>stling about section tag strong</li>
+    <li>stling about section tag responsif</li>
     </ol>
