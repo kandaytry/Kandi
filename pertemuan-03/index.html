@@ -1,106 +1,171 @@
-Kandi/pertemuan-03/index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-    
+    <title>judul halaman</title>
     <style>
-        #about {
-        background-color: oklch(46.527% 0.08097 96.061);
-        border-radius: 10px;
-        padding: 20px;
-        max-width:700px;
-        margin: 20px auto;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+     #about {
+     background-color: #ffffff;
+     border-radius: 10px;
+     padding: 20px;
+     max-width: 700px; 
+     margin: 20px auto;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 
-        #about h2 {
-            color: #003366;
-            border-bottom: 2px solid 2#003366;
-            padding-bottom: 6px;
-            margin-top: 0px;
-            margin-bottom: 16px;
+    #contact {
+     background-color: #ffffff;
+     border-radius: 10px;
+     padding: 20px;
+     max-width: 700px; 
+     margin: 20px auto;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 
-        }
-        #about p {
-            display: flex;
-            justify-content: flex-start;
-            align-items: baseline;
-            margin: 0%;
-            padding: 6px 0;
-            border-bottom: 1px solid #0b2b4b;
-        }
-        #about strong {
-            min-width:180px ;
-            color: #003366;
-            font-weight: 600;
-            text-align: right;
-            padding-right: 16px;
-            flex-shrink: 0;
-        }
-        @media (max-width:600px){
-            #about p {
-                flex-direction: column;
-                align-items: flex-start;
-            }
+     #about
+     #contact {
+      background-color: #ffffff;
+     border-radius: 10px;
+     padding: 20px;
+     max-width: 700px; 
+     margin: 20px auto;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     }
 
-            #about strong {
-                text-align: left;
-                padding-right: 0;
-                margin-bottom:2px ;
+     #about h2,
+     #contact h2 {
+      color:#003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 6px;
+      margin-top: 0;
+      margin-bottom: 16px;
+     }
 
-            }
-        }
+     #about h2 {
+      color:#003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 6px;
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+
+     #about p {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      margin: 0;
+      padding: 6px 0;
+      border-bottom: 1px solid #fe2a2a;
+     }
+
+     #about strong {
+      min-width: 100px;
+      color: #003366;
+      font-weight: 600;
+      text-align: right;
+      padding-right: 16px;
+      flex-shrink: 0;
+     }
+
+     #contact label>span {
+      min-width: 180px;
+      color: #003366;
+      font-weight: 600;
+      text-align: right; 
+      padding-right: 16px;
+      flex-shrink: 0;
+     }
+
+     @media(max-width: 600px) {
+      #about p {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      #about strong {
+        text-align: left;
+        padding-right: 0; 
+        margin-bottom: 2px;
+      }
+
+      #concact label {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        padding: 6px 0;
+        border-bottom: 1px solid #e6e6e6;
+      }
+
+    #about p,
+    #contact label {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      margin: 0;
+      padding: 6px 0;
+      border-bottom: 1px solid #e6e6e6;
+    }
+     }
+
     </style>
 </head>
 <body>
     <header>
-
-        <h1>ini header</h1>
+        <h1></h1>
         <nav>
-            <ol>
+            <ul>
                 <li><a href="#home">beranda</a></li>
                 <li><a href="#about">tentang</a></li>
                 <li><a href="#contact">kontak</a></li>
-            </lo>
+            </ul>
         </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>selamat datang</h2>
-                <p>hai semua siapa jago maen epep</p>
-        </section id="about">
-            <h2>Selamat datang</h2>
-                <p>perkenalkan nama saya Tri Kandi 
-                    <p><strong>NIM</strong> 2511530018</p>
-                <P><STRONG>tempat lahir</STRONG> Neknang</p>
-                    <p><strong>tanggal lahir</strong> 17 juli 2007</p>
-                    <p><strong>Hobi</strong> memancing dan bermain voli</p>
-                    <p><strong>Nama Ayah</strong> Tasrul</p>
-                    <p><strong>Nama Ibu</strong> Mariana</p>
-                    <p><strong>Saudara</strong> 3 Bersaudara saya anak terakhir</p>
-                    <p><strong>kakak Laki-laki</strong> Suganda</p>
-                    <p><strong>kakak Perempuan</strong> sasti Firdianti &#128525;</p>
-    </section id="contact">
-            <h2>hubungi saya</h2>
-            <form action=""method="POST">
-                <label for="TXTNama">Nama:</label>
-                <input type="txtNama" id="txtNama" required placeholder="text">
-                <label for="txtemail">Email :</label>
-                <input type="txtemail" id="txtemail" required placeholder="Email">
-                <label for="txtpesan">pesan</label>
-                <textarea name="Txtpesan" id="txtpesan" required placeholder="pesan"></textarea>
-
-                <button>kirim</button>
-                <button>batal</button>
-            </form>
-        </section>
+    </header> 
+        <main>
+          <section id="home"> 
+        <h2>selamat datang</h2>
+        <p>Hai semua</p>
+    </section>
+    <section id="about">
+        <h2>tentang saya</h2>
+        <p><strong>NIM:</strong>2511530018</p>
+        <p><STRONG>Nama lengkap:</STRONG>Tri kandi&#128526;</p>
+        <p><strong>Tempat lahir:</strong>Neknang</p>
+        <p><strong>Tanggal lahir:</strong>17 Juli 2007</p>
+        <p><strong>Hobi:</strong>sepak bola, bermain voli,dan casting ikan Gabus</p>
+        <p><strong>Nama orng tua:</strong>Bapak Tasrul dan Ibu Mariana</p>
+        <P><strong>Nama kakak pertama:</strong>Suganda</P>
+        <p><strong> kakak kedua</strong>Sasti Ferdianti:</p>
+    </section>
+    <section id="contact">
+      <h2>kontak kami</h2>
+      <form action="" method="GET">
+        <label for="txtnama"></span>nama:</span>
+        <input name="txtnama" id="txtnama" required placeholder="masukan nama" type="nama">
+        
+        <label for="txtemail"><span Email:</span>
+        <input name="txtemail" id="txtemail" required placeholder="masukan email" type="email">
+        
+        <label for="txtpesan"><span pesan:</span>
+        <textarea rows="5" name="txtpesan" id="txtpesan" required placeholder="tulis pesan anda"></textarea>
+          
+     <button type="submit">Kirim</button>
+     <button type="reset">Batal</button>
+    </form>
+    </section>
+    
     </main>
-    <footer>
-
+     
+    <footer> 
+    <p> &copy; sadewo [2511530020]</p>
     </footer>
-</body>
 
+</body>
 </html>
+
+<label>
+  <div>
+    <span>Nama:</span>
+    <input>
+  </div>
+</label>
