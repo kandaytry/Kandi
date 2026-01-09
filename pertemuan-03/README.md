@@ -17,4 +17,5 @@ hari ini, selasa 23 desember 2025 belajar:
     <li>styling about section tag background</li>
     <li>menambahkan nama</li>
     <li>mengurutkan</li>
+    <li>menamvbahkan</li>
     </ol>
