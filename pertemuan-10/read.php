@@ -2,7 +2,7 @@
 require 'koneksi.php';
 
 $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
-$q = mysqli_querry($conn, $sql);
+$q = mysqli_query($conn, $sql);
 ?>
 <table border="1" cellpadding="8" cellspacing="0">
     <tr>
@@ -16,7 +16,9 @@ $q = mysqli_querry($conn, $sql);
         <tr>
             <td><?= $row['cnama']); ?></td>
             <td><?= htmlspecialchars($row['cemail']); ?></td>
-            <td><?= n12br(htmlspecialchars($row['cpesan'])); ?></td>
+            <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
         </tr>
     <?php endwhile; ?>
    </table>
+
+   <label>Pesan: <strong><?php echo $sespesan; ?></strong></label>
