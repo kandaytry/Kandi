@@ -126,7 +126,7 @@
               required><?= !empty($pesan) ? $pesan : '' ?></textarea>
           </label>
 
-          <label for="txtCaptcha"><span>Captcha 2 x 3 = ?</span>
+          <label for="txtCaptcha"><span> = ?</span>
             <input type="number" id="txtCaptcha" name="txtCaptcha" 
               placeholder="Jawab Pertanyaan..." required>
           </label>
