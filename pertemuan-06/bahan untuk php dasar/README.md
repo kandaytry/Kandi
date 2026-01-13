@@ -1,4 +1,4 @@
-# pertemuan-05
+# pertemuan-06
 
 saya bernama: Yohanes Setiawan Japriadi<br>
 NIM: 0344300002<br>
@@ -13,4 +13,6 @@ Hari ini, Rabu 22.Oktober.2025, saya belajar:
   <li>styling nav mobile</li>
   <li>styling nav menu mobile</li>
   <li>membuat script.js</li>
+  <li>membuat judul halaman</li>
+  <li>menmb ahkan index</li>
 </ol>
